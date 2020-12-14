@@ -1,12 +1,15 @@
 
 const getNotes = require('./notes.js')
 
+// assign command line input to variable 'command'
+const command = process.argv[2]
 
-console.log(getNotes())
+
+// Perform actions based on command line input
+if (command === 'add') {
+    console.log('Adding note!')
+} else if (command === 'remove') {
+    console.log('Removing note!')
+}
 
 
-
-// 1. Create a new file called notes.js
-// 2. Create a getNotes function that returns "Your notes...."
-// 3. Export getNotes function
-// 4. Form app.js. load in and call the function, printing message to console
