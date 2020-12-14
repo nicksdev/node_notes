@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/nicksdev/node_notes/issues"
   },
-  "homepage": "https://github.com/nicksdev/node_notes#readme"
+  "homepage": "https://github.com/nicksdev/node_notes#readme",
+  "dependencies": {
+    "yargs": "^16.2.0"
+  }
 }
